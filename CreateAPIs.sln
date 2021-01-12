@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAPIs", "CreateAPIs\CreateAPIs.csproj", "{9F3E8EF7-2409-4663-9EA6-F9E76EB65C81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAPIs", "ch#3\CreateAPIs\CreateAPIs.csproj", "{9F3E8EF7-2409-4663-9EA6-F9E76EB65C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
