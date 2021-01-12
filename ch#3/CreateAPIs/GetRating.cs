@@ -5,6 +5,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 
+//sridhar helped in fixing this code
 namespace CreateAPIs
 {
     public static class GetRating
