@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9F3E8EF7-2409-4663-9EA6-F9E76EB65C81}|Default">
+  <MonoDevelop.Ide.ItemProperties.CreateAPIs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CreateAPIs/function.json">
+    <Files>
+      <File FileName="CreateAPIs/GetRating.cs" Line="26" Column="42" />
+      <File FileName="CreateAPIs/GetRatings.cs" />
+      <File FileName="CreateAPIs/CreateRating.cs" />
+      <File FileName="CreateAPIs/local.settings.json" />
+      <File FileName="CreateAPIs/RatingModel.cs" />
+      <File FileName="CreateAPIs/host.json" />
+      <File FileName="CreateAPIs/function.json" Line="6" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CreateAPIs" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
