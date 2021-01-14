@@ -1,4 +1,4 @@
-name: Deploy CreateAPIs project to sloh21ch3functionapp function app with a Windows environments
+name: Deploy CreateAPIs project to sloh21ch3functionapp function app with a Windows environment
 
 on:
   [push]
