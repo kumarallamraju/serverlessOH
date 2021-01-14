@@ -1,4 +1,4 @@
-name: Deploy CreateAPIs project to slohch3apis function app with a Windows environments
+name: Deploy CreateAPIs project to SLOH21Ch3FunctionApp function app with a Windows environment
 
 on:
   [push]
@@ -13,7 +13,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: 'Checkout GitHub Action'
-      uses: actions/checkout@main
+      uses: actions/checkout@master
 
     - name: Setup DotNet ${{ env.DOTNET_VERSION }} Environment
       uses: actions/setup-dotnet@v1
