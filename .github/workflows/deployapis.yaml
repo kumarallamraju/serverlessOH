@@ -1,10 +1,10 @@
-name: Deploy CreateAPIs project to SLOH21Ch3FunctionApp function app with a Windows environment
+name: Deploy CreateAPIs project to sloh21ch3functionapp function app with a Windows environment
 
 on:
   [push]
 
 env:
-  AZURE_FUNCTIONAPP_NAME: SLOH21Ch3FunctionApp    # set this to your application's name
+  AZURE_FUNCTIONAPP_NAME: sloh21ch3functionapp    # set this to your application's name
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'    # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '3.1'              # set this to the dotnet version to use
 
