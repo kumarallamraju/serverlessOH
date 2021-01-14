@@ -14,7 +14,9 @@ namespace CreateAPIs
         [FunctionName(nameof(GetRatings))]
         public static IActionResult GetRatings(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
-            [CosmosDB(databaseName: @"%RatingsDbName%", collectionName: @"%RatingsCollectionName%", ConnectionStringSetting = @"RatingsDatabase")] IEnumerable<JObject> allRatings)
+        //        [CosmosDB(databaseName: @"%RatingsDbName%", collectionName: @"%RatingsCollectionName%", ConnectionStringSetting = @"RatingsDatabase")] IEnumerable<JObject> allRatings)
+                  [CosmosDB(databaseName: "serverlessDB", collectionName: "ratings", ConnectionStringSetting = "RatingsDatabase")] IEnumerable<JObject> allRatings)
+
         {
             string userId = null;
 

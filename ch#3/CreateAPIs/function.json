@@ -4,7 +4,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "methods": [
-        "get","post"
+        "get",
+        "post"
       ],
       "authLevel": "function",
       "name": "req"
