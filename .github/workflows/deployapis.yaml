@@ -1,10 +1,10 @@
-name: Deploy CreateAPIs project to slohch3apis function app with a Windows environments
+name: Deploy CreateAPIs project to sloh21ch3functionapp function app with a Windows environment
 
 on:
   [push]
 
 env:
-  AZURE_FUNCTIONAPP_NAME: slohch3apis    # set this to your application's name
+  AZURE_FUNCTIONAPP_NAME: sloh21ch3functionapp    # set this to your application's name
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'    # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '3.1'              # set this to the dotnet version to use
 
@@ -13,7 +13,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: 'Checkout GitHub Action'
-      uses: actions/checkout@main
+      uses: actions/checkout@master
 
     - name: Setup DotNet ${{ env.DOTNET_VERSION }} Environment
       uses: actions/setup-dotnet@v1
