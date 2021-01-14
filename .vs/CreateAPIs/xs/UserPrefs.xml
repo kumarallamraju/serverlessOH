@@ -10,16 +10,12 @@
       <File FileName="ch#3/CreateAPIs/obj/project.assets.json" />
       <File FileName="ch#3/CreateAPIs/host.json" />
       <File FileName="ch#3/CreateAPIs/local.settings.json" />
-      <File FileName="deployapis.yaml" Line="5" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="CreateAPIs" expanded="True">
-            <Node name="CreateAPIs" expanded="True" />
-            <Node name="deployapis.yaml" selected="True" />
-          </Node>
+          <Node name="CreateAPIs" expanded="True" />
         </State>
       </Pad>
     </Pads>
