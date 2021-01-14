@@ -18,8 +18,8 @@ namespace CreateAPIs
         [FunctionName("CreateRating")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
-            [CosmosDB(databaseName: "%RatingsDbName%",collectionName: "%RatingsCollectionName%",
-                        ConnectionStringSetting = @"RatingsDatabase")] IAsyncCollector<RatingModel> icecreamRatingOut,
+            [CosmosDB(databaseName: "serverlessDB",collectionName: "ratings",
+                        ConnectionStringSetting = "RatingsDatabase")] IAsyncCollector<RatingModel> icecreamRatingOut,
             ILogger log)
         {
             string _userid = null;

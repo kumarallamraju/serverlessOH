@@ -13,7 +13,7 @@ namespace CreateAPIs
         [FunctionName("GetRating")]
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = "ratings/{id}")] HttpRequest req,
-            [CosmosDB("%RatingsDbName%", "%RatingsCollectionName%", ConnectionStringSetting = "RatingsDatabase",
+            [CosmosDB("serverlessDB", "ratings", ConnectionStringSetting = "RatingsDatabase",
             SqlQuery = "Select * from ratings r where r.id = {id}")] IEnumerable<RatingModel> rating,
             ILogger log)
         {
