@@ -13,7 +13,7 @@ namespace CreateAPIs
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
             [CosmosDB("serverlessDB", "products", ConnectionStringSetting = "RatingsDatabase",
-            SqlQuery = "SELECT * from c where c.productId = {productId}")] IEnumerable<RatingModel> product,
+            SqlQuery = "SELECT * from products c where c.productId = {productId}")] IEnumerable<RatingModel> product,
             ILogger log)
         {
             log.LogInformation("Getting Product");
@@ -29,5 +29,5 @@ namespace CreateAPIs
     }
 }
 
-
+//Select* from ratings r where r.id = {id}
 
