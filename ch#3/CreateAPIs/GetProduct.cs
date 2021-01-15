@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
-//using SOH19DryRunFunctionApp.Models;
 using System.Collections.Generic;
 
 namespace CreateAPIs
@@ -12,9 +11,9 @@ namespace CreateAPIs
     {
         [FunctionName("GetProduct")]
         public static IActionResult Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "products/{productId}")] HttpRequest req,
-            [CosmosDB("serverlessDB", "products", ConnectionStringSetting = "RatingsDatabase",
-            SqlQuery = "Select * from products r where r.productId = {productId}")] IEnumerable<RatingModel> rating,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "products/{id}")] HttpRequest req,
+             [CosmosDB(databaseName: "serverlessDB", collectionName: "products", ConnectionStringSetting = "RatingsDatabase",
+            SqlQuery = "Select * from products r where r.id = {id}")] IEnumerable<RatingModel> rating,
             ILogger log)
         {
             log.LogInformation("Getting Product");

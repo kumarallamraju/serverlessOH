@@ -1,23 +1,26 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9F3E8EF7-2409-4663-9EA6-F9E76EB65C81}|Default">
   <MonoDevelop.Ide.ItemProperties.CreateAPIs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ch#3/CreateAPIs/GetProduct.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ch#3/CreateAPIs/GetUser.cs">
     <Files>
-      <File FileName="ch#3/CreateAPIs/GetRating.cs" Line="24" Column="14" />
-      <File FileName="ch#3/CreateAPIs/GetRatings.cs" Line="23" Column="94" />
-      <File FileName="ch#3/CreateAPIs/RatingModel.cs" Line="1" Column="1" />
-      <File FileName="ch#3/CreateAPIs/function.json" Line="18" Column="33" />
-      <File FileName="ch#3/CreateAPIs/CreateRating.cs" Line="23" Column="25" />
-      <File FileName="ch#3/CreateAPIs/obj/project.assets.json" />
-      <File FileName="ch#3/CreateAPIs/host.json" />
-      <File FileName="ch#3/CreateAPIs/local.settings.json" Line="10" Column="1" />
-      <File FileName="ch#3/CreateAPIs/GetProduct.cs" Line="17" Column="79" />
+      <File FileName="ch#3/CreateAPIs/GetRating.cs" Line="20" Column="50" />
+      <File FileName="ch#3/CreateAPIs/CreateRating.cs" Line="53" Column="49" />
+      <File FileName="ch#3/CreateAPIs/RatingModel.cs" Line="11" Column="41" />
+      <File FileName="ch#3/CreateAPIs/GetProduct.cs" Line="24" Column="13" />
+      <File FileName="ch#3/CreateAPIs/GetRatings.cs" Line="12" Column="44" />
+      <File FileName="ch#3/CreateAPIs/GetProducts.cs" Line="18" Column="84" />
+      <File FileName="ch#3/CreateAPIs/local.settings.json" Line="1" Column="1" />
+      <File FileName="ch#3/CreateAPIs/host.json" Line="1" Column="1" />
+      <File FileName="ch#3/CreateAPIs/function.json" Line="1" Column="1" />
+      <File FileName="ch#3/CreateAPIs/GetUser.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="CreateAPIs" expanded="True">
-            <Node name="CreateAPIs" expanded="True" />
+            <Node name="CreateAPIs" expanded="True">
+              <Node name="GetUser.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

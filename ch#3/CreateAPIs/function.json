@@ -14,8 +14,6 @@
       "type": "cosmosDB",
       "direction": "out",
       "name": "ratings",
-      "databaseName": "serverlessDB",
-      "collectionName": "ratings",
       "createIfNotExists": "true",
       "connectionStringSetting": "RatingsDatabase"
     }

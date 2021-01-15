@@ -8,16 +8,16 @@ using System.Collections.Generic;
 //sridhar helped in fixing this code
 namespace CreateAPIs
 {
-    public static class GetRating
+    public static class GetUser
     {
-        [FunctionName("GetRating")]
+        [FunctionName("GetUser")]
         public static IActionResult Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "ratings/{id}")] HttpRequest req,
-            [CosmosDB(databaseName: "serverlessDB", collectionName: "ratings", ConnectionStringSetting = "RatingsDatabase",
-            SqlQuery = "Select * from ratings r where r.id = {id}")] IEnumerable<RatingModel> rating,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "users/{id}")] HttpRequest req,
+            [CosmosDB(databaseName: "serverlessDB", collectionName: "users", ConnectionStringSetting = "RatingsDatabase",
+            SqlQuery = "Select * from users r where r.id = {id}")] IEnumerable<RatingModel> rating,
             ILogger log)
         {
-            log.LogInformation("Getting Rating");
+            log.LogInformation("Getting User");
             if (rating == null)
             {
                 return new NotFoundResult();

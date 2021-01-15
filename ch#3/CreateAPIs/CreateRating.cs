@@ -17,10 +17,16 @@ namespace CreateAPIs
 
         [FunctionName("CreateRating")]
         public static async Task<IActionResult> Run(
+
+          
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
             [CosmosDB(databaseName: "serverlessDB",collectionName: "ratings",
                         ConnectionStringSetting = "RatingsDatabase")] IAsyncCollector<RatingModel> icecreamRatingOut,
             ILogger log)
+
+            
+     
+
         {
             string _userid = null;
             string _productid = null;
@@ -50,7 +56,8 @@ namespace CreateAPIs
                         locationName = data?.locationName,
                         rating = data?.rating,
                         userNotes = data?.userNotes,
-                        timeStamp = DateTime.Now.ToString()
+                        timeStamp = DateTime.Now
+                        //timeStamp = DateTime.Now.ToString()
                     };
 
                     await icecreamRatingOut.AddAsync(_icecreamRating);
