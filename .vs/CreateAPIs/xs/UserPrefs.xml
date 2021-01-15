@@ -1,15 +1,18 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{9F3E8EF7-2409-4663-9EA6-F9E76EB65C81}|Default">
   <MonoDevelop.Ide.ItemProperties.CreateAPIs PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ch#3/CreateAPIs/function.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ch#3/CreateAPIs/GetUser.cs">
     <Files>
-      <File FileName="ch#3/CreateAPIs/GetRating.cs" Line="12" Column="6" />
-      <File FileName="ch#3/CreateAPIs/GetRatings.cs" />
+      <File FileName="ch#3/CreateAPIs/GetRating.cs" Line="16" Column="47" />
+      <File FileName="ch#3/CreateAPIs/GetRatings.cs" Line="20" Column="10" />
       <File FileName="ch#3/CreateAPIs/RatingModel.cs" />
-      <File FileName="ch#3/CreateAPIs/function.json" Line="24" Column="1" />
-      <File FileName="ch#3/CreateAPIs/CreateRating.cs" />
+      <File FileName="ch#3/CreateAPIs/function.json" Line="18" Column="33" />
+      <File FileName="ch#3/CreateAPIs/CreateRating.cs" Line="23" Column="25" />
       <File FileName="ch#3/CreateAPIs/obj/project.assets.json" />
       <File FileName="ch#3/CreateAPIs/host.json" />
-      <File FileName="ch#3/CreateAPIs/local.settings.json" />
+      <File FileName="ch#3/CreateAPIs/local.settings.json" Line="8" Column="35" />
+      <File FileName="ch#3/CreateAPIs/GetProduct.cs" Line="1" Column="1" />
+      <File FileName="ch#3/CreateAPIs/GetProducts.cs" Line="1" Column="1" />
+      <File FileName="ch#3/CreateAPIs/GetUser.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +20,7 @@
           <Option id="ShowAllFiles" value="True" />
           <Node name="CreateAPIs" expanded="True">
             <Node name="CreateAPIs" expanded="True">
-              <Node name="function.json" selected="True" />
+              <Node name="GetProduct.cs" selected="True" />
             </Node>
           </Node>
         </State>
