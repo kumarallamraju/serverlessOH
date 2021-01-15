@@ -11,7 +11,7 @@ namespace CreateAPIs
     {
         [FunctionName("GetProduct")]
         public static IActionResult Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "null")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
             [CosmosDB("serverlessDB", "products", ConnectionStringSetting = "RatingsDatabase",
             SqlQuery = "SELECT * from c where c.productId = {productId}")] IEnumerable<RatingModel> product,
             ILogger log)
